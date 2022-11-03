@@ -8,7 +8,7 @@ const myBtn4 = document.getElementById("btn4");
 const myImg = document.querySelector("div", "img");
 
 function change() {
-  judul.innerHTML = "Muhammad Hadi Arsa";
+  judul.innerHTML = "MUHAMMAD HADI ARSA";
   H3Text.innerHTML =
     "Seorang Mahasiswa ITERA dengan NIM 120140150 mengambil program studi Teknik Informatika";
 }
@@ -65,7 +65,7 @@ function video() {
 function view() {
   var styles = `html{margin: 0;padding: 0;}
         body{
-            background-color: #1fbcdb;
+            background-image: url('Sky-BG.jpg');
         }
         img{
             width: 100px;
@@ -81,34 +81,30 @@ function view() {
             padding: 10px;
         }
         .text{
-            padding-top: 50px;
-            height: 100px;
             overflow: hidden;
             text-align: center;
-            border-radius: 50px;
         }
         .text h3{
             font-size: 2em;
-            line-height: 100px;
         }
         .text h3:nth-child(1){
-            animation: text-gerak 15s infinite;
+            animation: text-gerak 10s infinite;
         }
         @keyframes text-gerak {
             0%{
-                margin-top: 0;
+                margin-left: 0;
             }
             25%{
-                margin-top: -130px;
+                margin-left: -130px;
             }
             50%{
-                margin-top: -280px;
+                margin-left: -250px;
             }
             75%{
-                margin-top: -130px;
+                margin-left: -130px;
             }
             100%{
-                margin-top: 0;
+                margin-left: 0;
             }
         }
         .btn{
